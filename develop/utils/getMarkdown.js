@@ -1,4 +1,4 @@
-const getMarkdown = ({license, email, project, installation, usage, contributors, test}) =>
+const getMarkdown = ({description, license, email, github, project, installation, usage, contributors, test}) =>
 
 `
 # ${project}
@@ -7,6 +7,7 @@ const getMarkdown = ({license, email, project, installation, usage, contributors
 ${license}
 
 ## Description
+${description}
 
 ## Table of Contents
 - [Usage](#usage)
@@ -28,8 +29,9 @@ ${contributors}
 ${test}
 
 ## Questions
-Questions?  You can contact me by email:\n
-${email}
+Questions?  Contact Me:\n
+Email: ${email}\n
+GitHub: https://github.com/${github}
 `
 
 module.exports = getMarkdown;
