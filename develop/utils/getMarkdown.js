@@ -3,7 +3,6 @@ const getMarkdown = ({description, license, email, github, project, installation
 `
 # ${project}
 
-## License
 ${license}
 
 ## Description
@@ -22,11 +21,14 @@ ${usage}
 ## Installation
 ${installation}
 
-## Contributiors
+## Contributors
 ${contributors}
 
 ## Testing
 ${test}
+
+## License:
+// this is what i need assistance with.
 
 ## Questions
 Questions?  Contact Me:\n

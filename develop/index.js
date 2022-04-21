@@ -6,6 +6,11 @@ const init = () => {
     inquirer
     .prompt([
         {
+            name: "project",
+            type: "input",
+            message: "What is the name of your project?"
+        },
+        {
             name: "email",
             type: "input",
             message: "What is the best email for a user to reach you with questions?"
@@ -80,17 +85,16 @@ const init = () => {
                     name: "Zlib",
                     value: "[![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)",
                 },
+                {
+                    name: "None",
+                    value: "No license necessary for this project."
+                }
             ]
         },
         {
             name: "description",
             type: "input",
             message: "How would you describe this project to a 5 year old?"
-        },
-        {
-            name: "project",
-            type: "input",
-            message: "What is the name of your project?"
         },
         {
             name: "installation",
