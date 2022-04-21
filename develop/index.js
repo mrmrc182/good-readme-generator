@@ -23,7 +23,7 @@ const init = () => {
         {
             name: "license",
             type: "list",
-            message: "What license does your project use (Use the arrow keys and press Enter to select)?",
+            message: "What license does your project use? (Use the arrow keys and press Enter to select)",
             choices: [
                 {
                     name: "Apache",

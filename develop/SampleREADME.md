@@ -1,10 +1,10 @@
 
-# matt
+# good-readme-project
 
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
-i wouldn't
+A generator to make READMEs to streamline the creation process.
 
 ## Table of Contents
 - [Usage](#usage)
@@ -15,23 +15,23 @@ i wouldn't
 - [Questions](#questions)
 
 ## Usage
-i guess
+A user would use it to create READMEs for their projects and repositories
 
 ## Installation
-sure
+Node JS and NPM Inquirer
 
 ## Contributors
-just me
+Myself, a BCS tutor who helped me with logic and syntax, and my instructor John.
 
 ## Testing
-no
+Open a terminal window, type "node index.js", answer the prompts
 
 ## License:
-Boost
+Apache
 
 ## Questions
 Questions?  Contact Me:
 
-Email: matt
+Email: carlson.matt.r@gmail.com
 
-GitHub: https://github.com/matt
+GitHub: https://github.com/mrmrc182
