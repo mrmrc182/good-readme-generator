@@ -118,6 +118,39 @@ const init = () => {
         },
     ])
     .then((answers => {
+        if(answers.license == "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)") {
+            answers.licenseTitle = "Apache";
+        } else if(answers.license == "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)"){
+            answers.licenseTitle = "Boost";
+        } else if(answers.license == "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"){
+            answers.licenseTitle = "BSD";
+        } else if(answers.license == "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)"){
+            answers.licenseTitle = "Creative Commons";
+        } else if(answers.license == "[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)"){
+            answers.licenseTitle = "Eclipse";
+        } else if(answers.license == "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"){
+            answers.licenseTitle = "GNU";
+        } else if(answers.license == "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)"){
+            answers.licenseTitle = "IBM";
+        } else if(answers.license == "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"){
+            answers.licenseTitle = "ISC";
+        } else if(answers.license == "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"){
+            answers.licenseTitle = "MIT";
+        } else if(answers.license == "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"){
+            answers.licenseTitle = "Mozilla";
+        } else if(answers.license == "[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)"){
+            answers.licenseTitle = "Open Data Commons";
+        } else if(answers.license == "[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)"){
+            answers.licenseTitle = "Perl";
+        } else if(answers.license == "[![License: Open Font-1.1](https://img.shields.io/badge/License-OFL_1.1-lightgreen.svg)](https://opensource.org/licenses/OFL-1.1)"){
+            answers.licenseTitle = "SIL";
+        } else if(answers.license == "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)"){
+            answers.licenseTitle = "UniLicense";
+        } else if(answers.license == "[![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)"){
+            answers.licenseTitle = "ZLib";
+        } else {
+            answers.licenseTitle = "No license necessary for this project."
+        }     
         const markdownContent = getMarkdown(answers);
         fs.writeFile(`SampleREADME.md`, markdownContent, (err) =>
         err ? console.log("README Generation failed.") : console.log("README Created!")

@@ -1,4 +1,4 @@
-const getMarkdown = ({description, license, email, github, project, installation, usage, contributors, test}) =>
+const getMarkdown = ({description, license, email, github, project, installation, usage, contributors, test, licenseTitle}) =>
 
 `
 # ${project}
@@ -13,6 +13,7 @@ ${description}
 - [Installation](#installation)
 - [Contributors](#contributors)
 - [Testing](#testing)
+- [License](#license)
 - [Questions](#questions)
 
 ## Usage
@@ -28,7 +29,7 @@ ${contributors}
 ${test}
 
 ## License:
-// this is what i need assistance with.
+${licenseTitle}
 
 ## Questions
 Questions?  Contact Me:\n
