@@ -1,30 +1,30 @@
 
-# matts project
+# good-readme-generator
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
-This is a project that generates READMEs to streamline the creation process
+This project creates good READMEs for users to explain their projects
 
 ## Table of Contents
 - [Usage](#usage)
 - [Installation](#installation)
 - [Contribution](#contribution)
-- [Testing](#testing)
+- [Tests](#tests)
 - [License](#license)
 - [Questions](#questions)
 
 ## Usage
-Use it to put information about their project into a README
+To create a descriptive README for their projects and repositories
 
 ## Installation
 Node JS and NPM Inquirer
 
 ## Contribution
-Message me for more information, feel free to fork and make changes
+Feel free to fork and make changes, send me a message if you have questions
 
-## Testing
-Open a terminal, type "Node index.js", then answer the prompts
+## Tests
+Open a terminal window, type "Node index.js", then answer the prompts
 
 ## License:
 Apache
