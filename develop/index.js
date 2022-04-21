@@ -109,7 +109,7 @@ const init = () => {
         {
             name: "contributors",
             type: "input",
-            message: "Who has contributed to your project?"
+            message: "How can one contribute to your project?"
         },
         {
             name: "test",

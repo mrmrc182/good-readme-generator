@@ -11,8 +11,8 @@ ${description}
 ## Table of Contents
 - [Usage](#usage)
 - [Installation](#installation)
-- [Contributors](#contributors)
-- [Testing](#testing)
+- [Contribution](#contribution)
+- [Tests](#tests)
 - [License](#license)
 - [Questions](#questions)
 
@@ -22,10 +22,10 @@ ${usage}
 ## Installation
 ${installation}
 
-## Contributors
+## Contribution
 ${contributors}
 
-## Testing
+## Tests
 ${test}
 
 ## License:
